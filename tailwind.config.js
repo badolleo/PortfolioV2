@@ -8,6 +8,7 @@ module.exports = {
                 'orange-1' : '#E3AC1C',
                 'background-white' : 'rgb(243 244 246)',
                 'transparent-1' : 'rgba(0,0,0,0.8)',
+                'transparent-2' : 'rgba(0,0,0,0.6)',
             },
         },
     },

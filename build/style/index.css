@@ -544,6 +544,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .fixed {
   position: fixed;
 }
@@ -628,6 +632,10 @@ video {
 
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-1\/6 {
@@ -731,6 +739,10 @@ video {
 
 .bg-transparent-1 {
   background-color: rgba(0,0,0,0.8);
+}
+
+.bg-transparent-2 {
+  background-color: rgba(0,0,0,0.6);
 }
 
 .bg-white {
@@ -908,12 +920,6 @@ video {
 .img-projet{
   height: 400px;
   width: 400px;
-  filter: blur(3px);
-  transition: all 0.2s ease-in-out;
-}
-
-.container-projet:hover .img-projet{
-  filter: blur(0);
 }
 
 .container-projet{
@@ -943,6 +949,14 @@ video {
 
 .link a:hover::before{
   width: 101%;
+}
+
+.hover\:visible:hover {
+  visibility: visible;
+}
+
+.hover\:flex:hover {
+  display: flex;
 }
 
 .hover\:shadow-xl:hover {

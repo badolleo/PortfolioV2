@@ -95,12 +95,6 @@
 .img-projet{
     height: 400px;
     width: 400px;
-    filter: blur(3px);
-    transition: all 0.2s ease-in-out;
-}
-
-.container-projet:hover .img-projet{
-    filter: blur(0);
 }
 
 .container-projet{
